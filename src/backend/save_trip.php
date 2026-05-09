@@ -7,7 +7,7 @@ header("Content-Type: application/json");
 
 $host = "localhost";
 $user = "root";
-$password = "Aa118685658";
+$password = "";
 $database = "ai_itinerary_planner";
 
 $conn = new mysqli($host, $user, $password, $database);
