@@ -1,58 +1,80 @@
 # AI Itinerary Planner ✈️
 
-A web application that generates personalized travel itineraries using Artificial Intelligence.
+A smart AI-powered travel planning web application that generates personalized itineraries based on the user’s destination, budget, interests, and trip duration.
 
 ---
 
-## 👩‍💻 Team Members
-- Ruba — AI & Testing  
-- amani — Backend Developer  
-- refaa — Frontend Developer  
+# 👩‍💻 Team Members
+
+- Ruba Alghamdi — AI Integration & Testing
+- Amani Alzahrani — Backend Developer
+- Refaa Saber — Frontend Developer
 
 ---
 
-## ✨ Features
+# ✨ Features
+
 - User Authentication (Sign Up / Sign In)
-- Protected Routes (only logged-in users can access)
+- Protected Routes for logged-in users only
 - AI-powered itinerary generation using Google Gemini API
-- Responsive design (works on mobile and desktop)
-- User profile page displaying account information
+- Personalized travel plans based on:
+  - Destination
+  - Budget
+  - Interests
+  - Number of days
+- Save generated trips into MySQL database
+- Profile page displaying user information
+- Saved Trips section
+- Delete saved trips 🗑️
+- Favorite trips system ⭐
+- Favorite Trips Only filter
+- Weather information for destinations ☀️
+- Destination images using API integration 🖼️
+- Responsive UI design for desktop and mobile devices
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
+
 - React + Vite
 - Firebase Authentication
 - Google Gemini API
-- React Router
+- OpenWeather API
+- React Router DOM
 - Bootstrap / CSS
-
----
-## 🧪 Testing
-
-- Sign Up → ✅ Works correctly  
-- Sign In → ✅ Works correctly  
-- Wrong password → ✅ Error message appears  
-- Empty fields validation → ✅ Works correctly  
-- Generate itinerary → ✅ AI generates structured plan  
-- Protected routes → ✅ Redirects unauthorized users  
-- About Us page → ✅ Loads correctly  
-- Profile page → ✅ Displays user data  
-- Mobile responsiveness → ✅ Works on small screens  
+- PHP
+- MySQL
+- XAMPP
 
 ---
 
-## made by :
-- ruba alghamdi 
-- refaa saber
-- amani alzahrani
+# 🧪 Testing
+
+- Sign Up → ✅ Works correctly
+- Sign In → ✅ Works correctly
+- Wrong password → ✅ Error message appears
+- Empty fields validation → ✅ Works correctly
+- Generate itinerary → ✅ AI generates structured travel plans
+- Save trip → ✅ Trip saved successfully in database
+- Delete trip → ✅ Trip removed successfully
+- Favorite system → ✅ Favorites update correctly
+- Weather API → ✅ Displays destination weather
+- Protected routes → ✅ Redirects unauthorized users
+- About Us page → ✅ Loads correctly
+- Profile page → ✅ Displays user data and saved trips
+- Mobile responsiveness → ✅ Works on small screens
 
 ---
-## 🚀 How to Run
 
-1. Clone the repository:
+# 📂 Project Structure
+
 ```bash
-git clone https://github.com/RefaaSaber/ai-itinerary-planner.git
-
-
-
+src/
+ ├── assets/
+ ├── backend/
+ ├── components/
+ ├── context/
+ ├── hooks/
+ ├── pages/
+ ├── App.jsx
+ └── main.jsx
